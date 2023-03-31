@@ -6,7 +6,7 @@
     "build": "graph build",
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy shadowswap/swaps --node http://162.0.216.193:8020 --debug",
+    "deploy": "graph deploy shadowswap/swaps --node http://162.0.216.193:8020  --ipfs http://162.0.216.193:5001 --debug",
     "create-local": "graph create --node http://162.0.216.193:8020 shadowswap/swaps",
     "remove-local": "graph remove --node http://162.0.216.193:8020 shadowswap/swaps",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 shadowswap/swaps"
